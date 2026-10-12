@@ -38,7 +38,7 @@ const App = () => {
     setStudents(filteredStudent);
   };
   return (
-    <div className="bg-zinc-950 min-h-screen text-white">
+    <div className="flex min-h-screen flex-col bg-zinc-950 text-zinc-100">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route
