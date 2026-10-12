@@ -1,13 +1,11 @@
-import Navbar from "../components/Navbar"
-import Form from "../components/Form"
-const AddStudent = ({addStudent}) => {
+import Navbar from "../components/Navbar";
+import Form from "../components/Form";
 
-  return (
-    <div className="flex flex-col min-h-screen">
-        <Navbar/>
-        <Form addStudent={addStudent} />
-    </div>
-  )
-}
+const AddStudent = ({ addStudent }) => (
+  <div className="flex min-h-screen flex-col bg-zinc-950 text-zinc-100">
+    <Navbar />
+    <Form addStudent={addStudent} />
+  </div>
+);
 
-export default AddStudent
+export default AddStudent;
